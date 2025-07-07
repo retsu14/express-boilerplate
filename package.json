@@ -1,0 +1,20 @@
+{
+  "name": "express-boilerplate",
+  "version": "1.0.0",
+  "description": "Express.js boilerplate with MySQL and MVC architecture",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mysql2": "^3.9.6"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
